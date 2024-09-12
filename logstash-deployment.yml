@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: logstash
-        image: docker.elastic.co/logstash/logstash:6.3.0
+        image: repo.corp.cox.com:5000/logstash:8.15.1
         ports:
         - containerPort: 5044
         volumeMounts:
